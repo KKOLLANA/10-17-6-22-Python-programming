@@ -43,3 +43,18 @@ i=0
 while i<len(newArray):
     print(newArray[i])
     i+=1
+    
+    
+#values getting from the user
+vals = array('i',[])
+
+n = int(input("Enter the length of the array"))  #we have to give the size of the array
+
+for i in range(n):
+    x=int(input("Enter the next value"))
+    vals.append(x)
+
+print(vals)
+    
+
+
